@@ -1,0 +1,101 @@
+/* Goolge Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Pacifico&family=Poppins:wght@300;400;700&display=swap');
+
+/*===== Global =====*/
+*{
+	box-sizing: border-box;
+}
+/* variables */
+:root{
+	--primary: #FFC636;
+	--secondary: #0A0B5B;
+	--lightGreen-1: #d6e5d8;
+	--lightGreen-2: #f5fcf4;
+	--black-2: #3f3c3c;
+	--black-1: #3b4131;
+
+}
+/* reset */
+body, p, a, ul, li{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+}
+
+li{
+	list-style-type: none;
+}
+
+/* base styles */
+body{
+	background: var(--lightGreen-2);
+	overflow-x: hidden;
+}
+
+.button{
+	background: var(--secondary);
+	border: 2px solid var(--secondary);
+	color: var(--primary);
+	padding: 6px 12px;
+	border-radius: 20px;
+	text-transform: uppercase;
+	box-shadow: 1px 2px 3px rgba(0, 0, 0, 0, 6);
+	display: inline-block;
+}
+.button:hover{
+	color: #fc036b;
+	background: var(--primary);
+}
+
+input, textarea{
+	background: ;
+	padding: 10px 16px;
+	border-radius: 20px;
+}
+/* font */
+h1, h2, h3, h4{
+	color: var(--black-2);
+	font-weight: normal;
+}
+p, a, li{
+	color: var(--black-1);
+}
+h1, h3{
+	font-size: 1.2em;
+}
+h2{
+	font-size: 1.6em;
+}
+h4{
+	font-size: 1.1em;
+}
+.leading{
+	font-size: 1.1em;
+}
+
+.active{
+	color: #fc036b;
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+/* navbar */
+.navbar{
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+	padding: 20px;
+	color:#484872;
+}
+.nav-links{
+	display: flex;
+	align-items: center;
+}
+.nav-links li{
+	margin: 0 30px;
+}
+
+/* end navbar */
