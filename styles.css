@@ -61,7 +61,7 @@ p, a, li{
 	color: var(--black-1);
 }
 h1, h3{
-	font-size: 1.2em;
+	font-size: 1.6em;
 }
 h2{
 	font-size: 1.6em;
@@ -156,18 +156,16 @@ h4{
     text-align: center;
 }
 .fruits a{
-    grid-column: 1/9;
+	background: var(--lightGreen-1);
+    grid-column: 2/12;
     margin: 20px 0;
-    display: flex;
+    
 }
-.fruits a *{
+/* .fruits a *{
     margin: 0 20px;
     max-width: 40%;
     align-self: center;
-}
-.fruits h4{
-    color: #9994f7;
-}
+} */
 #category{
 	padding: 30px 20px;
 	/* background: var(--black-1);  */
@@ -259,6 +257,7 @@ footer img{
 	}
 	.fruits h4{
 		text-align: center;
+		align-self: center;
 	}
 	#category{
 		padding: 30px 100px;
