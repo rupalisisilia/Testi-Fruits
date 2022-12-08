@@ -208,13 +208,13 @@ h4{
 	margin-top: 10px;
 }
 footer{
-	padding: 30px 20px;
-	/* background-color: #14153D; */
+	/* padding: 30px 20px;
+	background-color: #14153D;
 	background-image: url(./images/footer_image.png);
 	background-size: 40%;
 	background-repeat: no-repeat;
 	background-position: top;
-	background-position: center;
+	background-position: center; */
 }
 footer .copyright{
 	grid-column: 1/5;
